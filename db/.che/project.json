@@ -1,0 +1,1 @@
+{"type":"sap.hdb","builders":{"default":"hdi-builder","configs":{}},"runners":{"configs":{}},"attributes":{"working_set":["[\"cfg/zes.hdi.test.1/\",\"src/zes.hdi.test.1/\"]"]},"mixinTypes":["sap.hdb.whitelist","mtamodule"]}

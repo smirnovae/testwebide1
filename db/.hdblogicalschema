@@ -1,0 +1,20 @@
+{
+  "SYS" : {
+    "target" : {
+      "schema" : "SYS"
+   }
+ },
+
+  "_SYS_BI" : {
+    "target" : {
+      "schema" : "_SYS_BI"
+   }
+ },
+
+  "SAP_ABAP" : {
+    "target" : {
+      "schema" : "SAPABAP1"
+   }
+ }
+
+}

@@ -1,0 +1,8 @@
+{
+  "zes.hdi.test.1::Synonym_1": {
+    "target": {
+      "object": "T100S",
+      "logical_schema": "SAP_ABAP"
+    }
+  }
+}

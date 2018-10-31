@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="zes.hdi.test.1::test_ca" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="test_ca"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="zes.hdi.test.1::Synonym_1">
+    <resourceUri>zes.hdi.test.1::Synonym_1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="zes.hdi.test.1::Synonym_1">
+  <attributes>
+    <attribute id="ARBGB" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARBGB"/>
+      <keyMapping columnObjectName="Synonym_1" columnName="ARBGB"/>
+    </attribute>
+    <attribute id="MSGNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSGNR"/>
+      <keyMapping columnObjectName="Synonym_1" columnName="MSGNR"/>
+    </attribute>
+    <attribute id="MSGTA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSGTA"/>
+      <keyMapping columnObjectName="Synonym_1" columnName="MSGTA"/>
+    </attribute>
+    <attribute id="MSGTD" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSGTD"/>
+      <keyMapping columnObjectName="Synonym_1" columnName="MSGTD"/>
+    </attribute>
+    <attribute id="XIGNO" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XIGNO"/>
+      <keyMapping columnObjectName="Synonym_1" columnName="XIGNO"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
